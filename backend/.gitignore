@@ -1,0 +1,32 @@
+node_modules/
+dist/
+
+# Local run output
+.codex-runs/
+tests/.runs/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build and typecheck output
+*.tsbuildinfo
+
+# Test and tooling output
+coverage/
+.nyc_output/
+
+# Logs and local archives
+*.log
+*.zip
+
+# Local databases and dumps
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

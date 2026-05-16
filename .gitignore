@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local run output
+.codex-runs/
+tests/.runs/
+**/tests/.runs/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# TypeScript and bundler caches
+*.tsbuildinfo
+.vite/
+.vitest/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Logs and local archives
+*.log
+*.zip
+
+# Local databases and dumps
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

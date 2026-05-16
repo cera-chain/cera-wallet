@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.codex-runs/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build and typecheck output
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Test and tooling output
+coverage/
+.vitest/
+.vite/
+
+# Logs and local archives
+*.log
+*.zip
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
