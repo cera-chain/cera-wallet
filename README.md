@@ -1,5 +1,9 @@
 # CERA Wallet
 
+<p align="center">
+  <img src="https://cera.cash/images/cera-wallet-logo.png" alt="CERA Wallet" />
+</p>
+
 CERA Wallet is the reference wallet implementation for the CERA network. This repository contains the wallet backend API and the browser-based wallet frontend used for account management, transaction signing, transaction tracking, staking actions, and wallet-to-chain integration testing.
 
 Official wallet: https://wallet.cera.cash
